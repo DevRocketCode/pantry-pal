@@ -4,7 +4,7 @@
   "description": "A web app that allows users to search for recipes by ingredients and get recommendations for dishes they can make with what they have on hand.",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node src/app.ts'",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
