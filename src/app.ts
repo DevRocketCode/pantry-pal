@@ -1,3 +1,6 @@
+// Import the recipes
+import recipes from './recipes.json';
+
 // Import express
 import express from 'express';
 
@@ -9,7 +12,7 @@ const { PORT = 3000 } = process.env;
 
 // GET /
 app.get('/', (req, res) => {
-  res.send('Recipes to come');
+  res.send(recipes);
 });
 
 // Start the Express server, displaying the localhost URL
