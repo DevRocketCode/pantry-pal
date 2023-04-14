@@ -1,2 +1,2 @@
 # pantry-pal
-A web app that allows users to search for recipes by ingredients and get recommendations for dishes they can make with what they have on hand.
+A web app that lists yummy recipes. Written in TypeScript, Express, and Node.js.

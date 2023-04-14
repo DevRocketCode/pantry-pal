@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Vegan Butternut Squash Soup",
+    "description": "A delicious and healthy vegan soup made with butternut squash, coconut milk, and spices.",
+    "ingredients": [
+      {
+        "name": "butternut squash",
+        "quantity": "1"
+      },
+      {
+        "name": "coconut milk",
+        "quantity": "1 can"
+      },
+      {
+        "name": "onion",
+        "quantity": "1"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": "2"
+      },
+      {
+        "name": "olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "cumin",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "salt",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "name": "Spaghetti with Meat Sauce",
+    "description": "A classic spaghetti with meat sauce recipe that is simple to make and always delicious.",
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "quantity": "1 pound"
+      },
+      {
+        "name": "ground beef",
+        "quantity": "1 pound"
+      },
+      {
+        "name": "onion",
+        "quantity": "1"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": "2"
+      },
+      {
+        "name": "olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "canned crushed tomatoes",
+        "quantity": "28 ounces"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "salt",
+        "quantity": "to taste"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "name": "Easy Baked Chicken Breast",
+    "description": "A simple and delicious recipe for baked chicken breasts that comes out juicy and flavorful every time.",
+    "ingredients": [
+      {
+        "name": "chicken breasts",
+        "quantity": "4"
+      },
+      {
+        "name": "olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "paprika",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "salt",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "1/2 teaspoon"
+      }
+    ]
+  },
+  {
+    "name": "Creamy Tomato and Spinach Pasta",
+    "description": "A delicious and easy pasta recipe that features a creamy tomato sauce with spinach and parmesan cheese.",
+    "ingredients": [
+      {
+        "name": "penne pasta",
+        "quantity": "1 pound"
+      },
+      {
+        "name": "olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": "2"
+      },
+      {
+        "name": "canned diced tomatoes",
+        "quantity": "28 ounces"
+      },
+      {
+        "name": "heavy cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "spinach",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "salt",
+        "quantity": "to taste"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "description": "A classic recipe for soft and chewy chocolate chip cookies that are perfect for any occasion.",
+    "ingredients": [
+      {
+        "name": "butter",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "granulated sugar",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "name": "all-purpose flour",
+        "quantity": "3 cups"
+      },
+      {
+        "name": "baking soda",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "chocolate chips",
+        "quantity": "2 cups"
+      }
+    ]
+  }
+]
