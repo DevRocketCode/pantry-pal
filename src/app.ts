@@ -1,5 +1,5 @@
 // Import the recipes
-import recipes from './recipes.json';
+import * as db from './db';
 
 // Import express
 import express from 'express';
@@ -10,10 +10,17 @@ const app = express();
 // Make the PORT configurable
 const { PORT = 3000 } = process.env;
 
-// GET /
-app.get('/', (req, res) => {
-  res.send(recipes);
+// GET /recipes
+app.get('/recipes', (req, res) => {
+  res.send(db.get());
 });
+
+// GET /recipes/:idx
+app.get('/recipes/:idx', (req, res) => {
+  const idx = Number(req.params.idx);
+  res.send(db.getByIndex(idx));
+});
+
 
 // Start the Express server, displaying the localhost URL
 app.listen(PORT, () => {
