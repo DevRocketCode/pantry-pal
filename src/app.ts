@@ -7,6 +7,9 @@ import express from 'express';
 // Create a new express app instance
 const app = express();
 
+// Configure Express to parse JSON
+app.use(express.json());
+
 // Make the PORT configurable
 const { PORT = 3000 } = process.env;
 
@@ -21,6 +24,13 @@ app.get('/recipes/:idx', (req, res) => {
   res.send(db.getByIndex(idx));
 });
 
+// POST /recipes
+app.post('/recipes', (req, res) => {
+  console.log(req.body);
+  const recipe = req.body;
+  db.add(recipe);
+  res.send(recipe);
+});
 
 // Start the Express server, displaying the localhost URL
 app.listen(PORT, () => {
