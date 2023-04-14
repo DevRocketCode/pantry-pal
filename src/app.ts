@@ -26,7 +26,6 @@ app.get('/recipes/:idx', (req, res) => {
 
 // POST /recipes
 app.post('/recipes', (req, res) => {
-  console.log(req.body);
   const recipe = req.body;
   db.add(recipe);
   res.send(recipe);
