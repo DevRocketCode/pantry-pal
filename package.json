@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/DevRocketCode/pantry-pal/issues"
   },
-  "homepage": "https://github.com/DevRocketCode/pantry-pal#readme"
+  "homepage": "https://github.com/DevRocketCode/pantry-pal#readme",
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  }
 }
