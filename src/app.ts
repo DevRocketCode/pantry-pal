@@ -20,6 +20,7 @@ app.get('/recipes', (req, res) => {
 
 // GET /recipes/:idx
 app.get('/recipes/:idx', (req, res) => {
+  // Convert the idx parameter to a number, so we can pass to getByIndex
   const idx = Number(req.params.idx);
   res.send(db.getByIndex(idx));
 });
