@@ -1,21 +1,25 @@
 import recipes from './recipes.json';
 
-// Define the Recipe type
 export interface Recipe {
   name: string;
   description: string;
-  ingredients: string[];
+  ingredients: Ingredient[];
 }
 
-export const get = () => {
+export interface Ingredient {
+  name: string;
+  quantity: string;
+}
+
+export const get = (): Recipe[] => {
   return recipes;
 }
 
-export const getByIndex = (idx: number) => {
-  return recipes[idx];
+export const getByIndex = (index: number): Recipe => {
+  return recipes[index];
 }
 
-// use the Recipe type to define the recipe parameter
-export const add = (recipe: Recipe) => {
+export const add = (recipe: Recipe): Recipe => {
   recipes.push(recipe);
+  return recipe;
 }
